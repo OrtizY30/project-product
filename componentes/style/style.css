@@ -1,0 +1,233 @@
+/* Estilos generales */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #F2F2F2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+/* Estilos para el header */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px 0px;
+    font-size: 25px;
+}
+nav i{
+    cursor: pointer;
+}
+nav #menu i{
+    font-size: 38px;
+}
+nav #menu-rigth i{
+    margin: 0px 5px;
+}
+/* Estilos del contenido */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0px 30px 0px 60px;
+
+}
+/* Estilos de la Seccion left */
+
+section #section-left{
+    width: 40%;
+}
+section #section-left h1{
+    color: #5D5F37;
+    font-size: 40px;
+}
+section #section-left p{
+    color: #888888;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    
+}
+/* botones de la seccion left */
+
+#botones ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+#botones button{
+    border: none;
+    background-color: #AEA260;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#botones button:hover{
+    opacity: 0.8;
+}
+#botones ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botones ul li a:hover{
+    color: rgba(0, 0, 0, 0.675);
+}
+
+
+/* Estilos de la Section rigth */
+
+#section-rigth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 30px;
+}
+/* #section-rigth ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+} */
+#section-rigth #btn-colors{
+    margin-left: 90px;
+}
+
+#section-rigth #btn-colors button{
+    display: block;
+    padding: 6px;
+    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 8px solid white;
+}
+
+#section-rigth #btn-colors div{
+    margin: 8px;
+    width: 30px;
+    cursor: pointer; 
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+#section-rigth #btn-colors div:hover{
+    border: 1px solid black;
+    transition: all 300ms;
+    
+}
+
+#section-rigth .naranja{
+    background-color: #8E6841;
+}
+
+#section-rigth .green{
+    background-color: #585934;
+}
+
+#section-rigth .piel{
+    background-color: #A3A180;
+}
+
+#section-rigth .black{
+    background-color: #000000;
+}
+
+#section-rigth #info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+#section-rigth #info a{
+    display: block;
+    width: 190px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+}
+
+#section-rigth #info span:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.505);
+    transition: all 200ms;
+}
+
+#btn-mas{
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #585934;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-left: 70px;
+    cursor: pointer;
+    
+}
+#btn-mas:hover{
+    box-shadow: 0px 0px 10px gray;
+    color: black;
+}
+
+/* Estilos de los circulos */
+
+#efecto-circulo{
+
+    /* position: absolute; */
+
+    width: 60pc;
+    height: 70pc;
+    border: 60px solid #6F6C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #F2F2F2;
+    position: absolute;
+    top: -200px;
+    right: -550px;
+    z-index: -1;
+}
+#efecto-circulo-1{
+    background-color: white;
+    width: 43pc;
+    height: 55pc;
+    /* border: 60px solid #F2F2F2; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del footer */
+
+footer{
+    margin: 30px 0px 0px 100px;
+}
+footer i{
+    display: block;
+    margin: 5px;
+    font-size: 28px;
+    cursor: pointer;
+}
