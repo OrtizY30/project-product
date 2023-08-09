@@ -19,23 +19,23 @@ btn_naranja.addEventListener('click', () =>{
     img.src = "/componentes/img/mueble-naranja.png";
     btn_mas.style.background = "#6E4F05";
     nam.textContent = "Orange Furniture";
-    nam.style.fontSize = "23px"
+    
 })
 btn_verde.addEventListener('click', () =>{
     circulos.style.border= "60px solid #36541E";
     img.src = "/componentes/img/mueble-verde.png";
-    nam.textContent = "Green furniture";
+    nam.textContent = "Green Furniture";
     btn_mas.style.background = "#36541E";
 })
 btn_piel.addEventListener('click', () =>{
     circulos.style.border= "60px solid #A3A180";
     img.src = "/componentes/img/mueble-piel.png";
-    nam.textContent = "Leather furniture";
+    nam.textContent = "Leather Furniture";
     btn_mas.style.background = "#A3A180";
 })
 btn_black.addEventListener('click', () =>{
     circulos.style.border= "60px solid #3A3C42";
     img.src = "/componentes/img/mueble-negro.png";
-    nam.textContent = "black furniture";
+    nam.textContent = "Black Furniture";
     btn_mas.style.background = "#3A3C42";
 })
