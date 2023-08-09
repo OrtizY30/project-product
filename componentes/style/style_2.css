@@ -4,21 +4,16 @@
     font-family: sans-serif;
 }
 
-#page2{
-    /* justify-content: space-around; */
-    position: absolute;
-    background: #F2F2F2;
-    width: 400px;
-    right: 0px;
-    top: 140px;
-    display: none;
+section{
+    display: flex;
+    justify-content: space-around;
 }
 /* Estylos del formulario */
 
 #formulario{
     width: 350px ;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,6 +73,6 @@ form{
 
 /* Estilos de los circulos */
 
-/* #efecto-circulo{
+#efecto-circulo{
     left: -550px;
-} */
+}

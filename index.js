@@ -7,45 +7,35 @@ let btn_black = document.querySelector(".black");
 
 let circulos = document.getElementById("efecto-circulo");
 let img = document.getElementById("img");
-
 let btn_browser = document.getElementById("btn-browser");
 let btn_mas = document.getElementById("btn-mas");
 
-let btn_page2 =document.getElementById("btn-browser");
+let nam = document.querySelector("#info a");
 
 // Activar eventos 
 
 btn_naranja.addEventListener('click', () =>{
-    console.log("cambiaste el tema a naranja")
     circulos.style.border= "60px solid #6E4F05";
     img.src = "/componentes/img/mueble-naranja.png";
     btn_mas.style.background = "#6E4F05";
+    nam.textContent = "Orange Furniture";
+    nam.style.fontSize = "23px"
 })
 btn_verde.addEventListener('click', () =>{
-    console.log("cambiaste el tema a verde")
     circulos.style.border= "60px solid #36541E";
     img.src = "/componentes/img/mueble-verde.png";
-    
+    nam.textContent = "Green furniture";
     btn_mas.style.background = "#36541E";
 })
 btn_piel.addEventListener('click', () =>{
-    console.log("cambiaste el tema a piel")
     circulos.style.border= "60px solid #A3A180";
     img.src = "/componentes/img/mueble-piel.png";
-    
+    nam.textContent = "Leather furniture";
     btn_mas.style.background = "#A3A180";
 })
 btn_black.addEventListener('click', () =>{
-    console.log("cambiaste el tema a negro")
     circulos.style.border= "60px solid #3A3C42";
     img.src = "/componentes/img/mueble-negro.png";
-    
+    nam.textContent = "black furniture";
     btn_mas.style.background = "#3A3C42";
 })
-
-btn_page2.addEventListener('click', () =>{
-    document.getElementById("page2").style.display = "block";
-    document.getElementById("section-left").style.display = "none";
-    circulos.style.left= "-550px";
-
-});

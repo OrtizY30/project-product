@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-wrap: wrap;
+}
+#table{
+    width: 60%;
+    color: rgb(109, 107, 107);
+    font-size: 14px;
+}
+#table tr:nth-child(1){
+    padding: 12px 0px 12px 80px;
+    background-color:#878770;
+    margin-bottom: 50px;
+    color: black;
+
+}
+table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+table td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#table td:nth-child(1){
+    width: 210px;
+}
+table img{
+    background-color: #878770;
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 70px;
+}
+table span{
+    display: block;
+    padding: 8px;
+    border: 1px solid rgb(109, 107, 107);
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+}
+table i{
+    font-size: 22px;
+    cursor: pointer;
+}
+#tabla2{
+    margin-top: 20px;
+    color: white;
+    background-color: #878770;
+    border-radius: 8px;
+    text-align: center;
+    height: 300px;
+    padding: 0px 30px;
+    
+}
+#tabla2 table{
+    color: white; 
+    width: 250px;
+    margin-bottom: 30px;
+    
+}
+#tabla2 table th{
+    font-size: 20px;
+}
+#tabla2 table tr{
+    margin-bottom: 30px;
+}
+#tabla2 button{
+    padding: 12px 45px;
+    background: transparent;
+    border: none;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 8px;
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    font-family: sans-serif;
+}
+#logo #div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#logo img{
+    width: 40px;
+}
+#logo p{
+    display: block;
+    margin-top: 5px;
+    color: #918383;
+    font-size: 15px;
+    font-weight: bold;
+}
