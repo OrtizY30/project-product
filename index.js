@@ -16,26 +16,26 @@ let nam = document.querySelector("#info a");
 
 btn_naranja.addEventListener('click', () =>{
     circulos.style.border= "60px solid #6E4F05";
-    img.src = "/componentes/img/mueble-naranja.png";
+    img.src = "componentes/img/mueble-naranja.png";
     btn_mas.style.background = "#6E4F05";
     nam.textContent = "Orange Furniture";
     
 })
 btn_verde.addEventListener('click', () =>{
     circulos.style.border= "60px solid #36541E";
-    img.src = "/componentes/img/mueble-verde.png";
+    img.src = "componentes/img/mueble-verde.png";
     nam.textContent = "Green Furniture";
     btn_mas.style.background = "#36541E";
 })
 btn_piel.addEventListener('click', () =>{
     circulos.style.border= "60px solid #A3A180";
-    img.src = "/componentes/img/mueble-piel.png";
+    img.src = "componentes/img/mueble-piel.png";
     nam.textContent = "Leather Furniture";
     btn_mas.style.background = "#A3A180";
 })
 btn_black.addEventListener('click', () =>{
     circulos.style.border= "60px solid #3A3C42";
-    img.src = "/componentes/img/mueble-negro.png";
+    img.src = "componentes/img/mueble-negro.png";
     nam.textContent = "Black Furniture";
     btn_mas.style.background = "#3A3C42";
 })
